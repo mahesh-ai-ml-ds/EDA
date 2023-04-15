@@ -50,3 +50,5 @@ Wang, Tong, Cynthia Rudin, Finale Doshi-Velez, Yimin Liu, Erica Klampfl, and Per
  - direction_same:0, 1 (feature meaning: whether the restaurant/bar is in the same direction as your current destination) 
  - direction_opp:1, 0 (feature meaning: whether the restaurant/bar is in the same direction as your current destination) 
  - Y:1, 0 (whether the coupon is accepted) 
+
+## EDA : Data Quality Check and Clean-up ##
