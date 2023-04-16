@@ -40,16 +40,16 @@ Wang, Tong, Cynthia Rudin, Finale Doshi-Velez, Yimin Liu, Erica Klampfl, and Per
  - education: Some college - no degree, Bachelors degree, Associates degree, High School Graduate, Graduate degree (Masters or Doctorate), Some High School 
  - occupation: Unemployed, Architecture & Engineering, Student, Education&Training&Library, Healthcare Support, Healthcare Practitioners & Technical, Sales & Related, Management, Arts Design Entertainment Sports & Media, Computer & Mathematical, Life Physical Social Science, Personal Care & Service, Community & Social Services, Office & Administrative Support, Construction & Extraction, Legal, Retired, Installation Maintenance & Repair, Transportation & Material Moving, Business & Financial, Protective Service, Food Preparation & Serving Related, Production Occupations, Building & Grounds Cleaning & Maintenance, Farming Fishing & Forestry 
  - income: $37500 - $49999, $62500 - $74999, $12500 - $24999, $75000 - $87499, $50000 - $62499, $25000 - $37499, $100000 or More, $87500 - $99999, Less than $12500
- - Bar: never, less1, 1-3, gt8, nan, 4-8 (feature meaning: how many times do you go to a bar every month?) 
- - CoffeeHouse: never, less1, 4-8, 1-3, gt8, nan (feature meaning: how many times do you go to a coffeehouse every month?) 
- - CarryAway:4-8, 1-3, gt8, less1, never (feature meaning: how many times do you get take-away food every month?) 
- - RestaurantLessThan20: 4~8, 1~3, less1, gt8, never (feature meaning: how many times do you go to a restaurant with an average expense per person of less than $20 every month?) 
- - Restaurant20To50: 1~3, less1, never, gt8, 4~8, nan (feature meaning: how many times do you go to a restaurant with average expense per person of $20 - $50 every month?) 
- - toCoupon_GEQ15min:0,1 (feature meaning: driving distance to the restaurant/bar for using the coupon is greater than 15 minutes) 
- - toCoupon_GEQ25min:0, 1 (feature meaning: driving distance to the restaurant/bar for using the coupon is greater than 25 minutes) 
- - direction_same:0, 1 (feature meaning: whether the restaurant/bar is in the same direction as your current destination) 
- - direction_opp:1, 0 (feature meaning: whether the restaurant/bar is in the same direction as your current destination) 
- - Y:1, 0 (whether the coupon is accepted) 
+ - Bar: never, less1, 1-3, gt8, nan, 4-8 *(feature meaning: how many times do you go to a bar every month?)* 
+ - CoffeeHouse: never, less1, 4-8, 1-3, gt8, nan *(feature meaning: how many times do you go to a coffeehouse every month?)* 
+ - CarryAway:4-8, 1-3, gt8, less1, never *(feature meaning: how many times do you get take-away food every month?)* 
+ - RestaurantLessThan20: 4~8, 1~3, less1, gt8, never *(feature meaning: how many times do you go to a restaurant with an average expense per person of less than $20 every month?) *
+ - Restaurant20To50: 1~3, less1, never, gt8, 4~8, nan *(feature meaning: how many times do you go to a restaurant with average expense per person of $20 - $50 every month?)* 
+ - toCoupon_GEQ15min:0,1 *(feature meaning: driving distance to the restaurant/bar for using the coupon is greater than 15 minutes)* 
+ - toCoupon_GEQ25min:0, 1 *(feature meaning: driving distance to the restaurant/bar for using the coupon is greater than 25 minutes)* 
+ - direction_same:0, 1 *(feature meaning: whether the restaurant/bar is in the same direction as your current destination)* 
+ - direction_opp:1, 0 *(feature meaning: whether the restaurant/bar is in the same direction as your current destination)*
+ - Y:1, 0 *(whether the coupon is accepted)* 
 
 ## EDA : Data Quality Check and Clean-up ##
 
