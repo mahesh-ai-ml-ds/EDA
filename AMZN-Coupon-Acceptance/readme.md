@@ -71,26 +71,11 @@ It is important to note that the record count for the dataset is 12,684. This am
 (data.isnull().sum()/(data.shape[0]))*100
 ```
 
-car                     99.148534
-Bar                      0.843582
-CoffeeHouse              1.710817
-CarryAway                1.190476
-RestaurantLessThan20     1.024913
-Restaurant20To50         1.490066
-
-Colons can be used to align columns.
-
-| Column        | % Null Values | Resolution  |
-| ------------- |:-------------:| -----:|
-|car     | 99.148534 | $1600 |
-|Bar      | 0.843582      |   $12 |
-| CoffeeHouse | are neat      |    $1 |
-
-There must be at least 3 dashes separating each header cell.
-The outer pipes (|) are optional, and you don't need to make the 
-raw Markdown line up prettily. You can also use inline Markdown.
-
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
+| Column    | % Null Values | Resolution  |
+| -------   |:-------------:| -----:|
+|car        | 99.148534 |Drop Coolumn|
+|Bar        | 0.843582      |  Replace with "never" |
+|CoffeeHouse| 1.710817      |   Replace with "never"  |
+|CarryAway  | 1.190476      |   Replace with "never"  |
+|RestaurantLessThan20 | 1.024913      |    Replace with "never"  |
+|Restaurant20To50 | 1.490066      |   Replace with "never" |
