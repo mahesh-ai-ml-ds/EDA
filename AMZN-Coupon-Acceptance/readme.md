@@ -72,5 +72,5 @@ It is important to note that the record count for the dataset is 12,684. This am
 ```
 
 | Column    | % Null Values | Resolution  |
-| -------|-------------:|: -----|
+| ----------|--------------:|:------------|
 
