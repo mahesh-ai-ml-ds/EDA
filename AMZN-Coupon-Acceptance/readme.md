@@ -60,8 +60,7 @@ During the process of reviewing the data types for columns, we discovered that s
 ```python
 for column in data.columns:
     if data[column].dtype == 'int64':
-        data[column] = data[column].astype('object')```python
-
+        data[column] = data[column].astype('object')```
 
 ### Data Record Count
 
