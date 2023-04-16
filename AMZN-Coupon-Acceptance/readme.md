@@ -107,7 +107,7 @@ data.drop_duplicates(inplace=True)
 1. What proportion of the total observations chose to accept the coupon?
 
 <div style="text-align:center">
-    <img src="images/00_perct_accepted.png" width=600>
+    <img src="images/00_perct_accepted.png" width=500>
 </div>
 
 2. What were different types and counts of coupons offered ?
