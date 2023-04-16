@@ -148,7 +148,9 @@ data.drop_duplicates(inplace=True)
 #### -go to bars more than once a month and are under the age of 30 OR
 #### -go to cheap restaurants more than 4 times a month and income is less than 50K.
 
-
+<div style="text-align:center">
+    <img src="images/08_bar_accepted_bar_freq_age_kid_maritial.png" alt="centered image" width=600>
+</div>
 
 ## Trip Analysis  ##
 
