@@ -142,6 +142,12 @@ data.drop_duplicates(inplace=True)
 <div style="text-align:center">
     <img src="images/07_bar_accepted_bar_freq_age_occu.png" alt="centered image" width=600>
 </div>
+### 5. Comparison between the those drivers who:
+####    -go to bars more than once a month, had passengers that were not a kid, and were not widowed OR
+####    -go to bars more than once a month and are under the age of 30 OR
+####    -go to cheap restaurants more than 4 times a month and income is less than 50K.
+
+
 
 ## Trip Analysis  ##
 
