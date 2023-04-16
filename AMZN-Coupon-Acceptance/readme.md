@@ -65,3 +65,9 @@ for column in data.columns:
 ### Data Record Count
 
 It is important to note that the record count for the dataset is 12,684. This amount may not be sufficient to ensure the accuracy of our analysis and conclusions. As a result, be cautious when interpreting the findings and consider gathering more data to improve the robustness of the analysis.
+
+### Checking and Fixing Null Values
+```python
+(data.isnull().sum()/(data.shape[0]))*100
+```
+
