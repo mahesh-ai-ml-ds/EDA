@@ -103,14 +103,14 @@ The dataset had 74 duplicate records which we drop.
 data.drop_duplicates(inplace=True)
 ```
 
-### Preliminary Analysis ###
-1. What proportion of the total observations chose to accept the coupon?
+## Preliminary Analysis ##
+### 1. What proportion of the total observations chose to accept the coupon?
 
 <div style="text-align:center">
     <img src="images/00_perct_accepted.png" width=500>
 </div>
 
-2. What were different types and counts of coupons offered ?
+### 2. What were different types and counts of coupons offered ?
 
 <div style="text-align:center">
     <img src="images/01_coupon_types_count.png" width=600>
