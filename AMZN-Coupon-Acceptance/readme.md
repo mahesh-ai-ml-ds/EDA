@@ -52,3 +52,17 @@ Wang, Tong, Cynthia Rudin, Finale Doshi-Velez, Yimin Liu, Erica Klampfl, and Per
  - Y:1, 0 (whether the coupon is accepted) 
 
 ## EDA : Data Quality Check and Clean-up ##
+
+### Fixing Data Types for Categorical Columns
+
+During the process of reviewing the data types for columns, we discovered that some of the columns have a data type of `int64`. This could potentially cause issues in our analysis, as all columns are supposed to be categorical. To address this, we will convert the data type of all columns with `int64` data type to `object`.
+
+```python
+for column in data.columns:
+    if data[column].dtype == 'int64':
+        data[column] = data[column].astype('object')```python
+
+
+### Data Record Count
+
+It is important to note that the record count for the dataset is 12,684. This amount may not be sufficient to ensure the accuracy of our analysis and conclusions. As a result, be cautious when interpreting the findings and consider gathering more data to improve the robustness of the analysis.
