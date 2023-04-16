@@ -110,8 +110,14 @@ data.drop_duplicates(inplace=True)
     <img src="images/00_perct_accepted.png" width=500>
 </div>
 
-### 2. What were different types and counts of coupons offered ?
+### 2. What were different types and counts of coupons offered?
 
 <div style="text-align:center">
     <img src="images/01_coupon_types_count.png" width=600>
+</div>
+
+### 3. What is the distribution of temperature column?
+
+<div style="text-align:center">
+    <img src="images/03_temperature_distribution.png" width=600>
 </div>
