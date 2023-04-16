@@ -130,7 +130,7 @@ data.drop_duplicates(inplace=True)
 
 ### 2. Comparison between the acceptance rate of those who went to a bar 3 or fewer times a month to those who went more.
 <div style="text-align:center">
-    <img src="images/05_bar_accepted_bar_freq.png" width=600>
+    <img src="images/05_bar_accepted_bar_freq.png" width=500>
 </div>
 
 ### 3. Comparison between the acceptance rate of drivers who go to a bar more than once a month and are over the age of 25 to the all others.  Is there a difference?
