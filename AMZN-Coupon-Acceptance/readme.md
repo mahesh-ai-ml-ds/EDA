@@ -107,5 +107,5 @@ data.drop_duplicates(inplace=True)
 #### What proportion of the total observations chose to accept the coupon? ####
 
 <div style="text-align:center">
-    <img src="/images/00_perct_accepted.png" width=600>
+    <img src="images/00_perct_accepted.png" width=600>
 </div>
