@@ -80,11 +80,11 @@ Restaurant20To50         1.490066
 
 Colons can be used to align columns.
 
-| Tables        | Are           | Cool  |
+| Column        | % Null Values | Resolution  |
 | ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+|car     | 99.148534 | $1600 |
+|Bar      | 0.843582      |   $12 |
+| CoffeeHouse | are neat      |    $1 |
 
 There must be at least 3 dashes separating each header cell.
 The outer pipes (|) are optional, and you don't need to make the 
