@@ -125,20 +125,20 @@ data.drop_duplicates(inplace=True)
 ## Bar Coupons Analysis ##
 ### 1. What proportion of bar coupons were accepted?
 <div style="text-align:center">
-    <img src="images/04_bar_accepted_record.png" width=500>
+    <img src="images/04_bar_accepted_record.png" alt="centered image" width=500>
 </div>
 
 ### 2. Comparison between the acceptance rate of those who went to a bar 3 or fewer times a month to those who went more.
 <div style="text-align:center">
-    <img src="images/05_bar_accepted_bar_freq.png" width=500>
+    <img src="images/05_bar_accepted_bar_freq.png" alt="centered image" width=500>
 </div>
 
 ### 3. Comparison between the acceptance rate of drivers who go to a bar more than once a month and are over the age of 25 to the all others.  Is there a difference?
 <div style="text-align:center">
-    <img src="images/06_bar_accepted_bar_freq_age.png" width=600>
+    <img src="images/06_bar_accepted_bar_freq_age.png" alt="centered image" width=600>
 </div>
 
 ### 4. Comparison between the acceptance rate of drivers who go to bars more than once a month and had passengers that were not a kid and had occupations other than farming, fishing, or forestry. 
 <div style="text-align:center">
-    <img src="images/07_bar_accepted_bar_freq_age_occu.png" width=600>
+    <img src="images/07_bar_accepted_bar_freq_age_occu.png" alt="centered image" width=600>
 </div>
