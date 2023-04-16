@@ -60,8 +60,8 @@ During the process of reviewing the data types for columns, we discovered that s
 ```python
 for column in data.columns:
     if data[column].dtype == 'int64':
-        data[column] = data[column].astype('object')```
-
+        data[column] = data[column].astype('object')
+```
 ### Data Record Count
 
 It is important to note that the record count for the dataset is 12,684. This amount may not be sufficient to ensure the accuracy of our analysis and conclusions. As a result, be cautious when interpreting the findings and consider gathering more data to improve the robustness of the analysis.
