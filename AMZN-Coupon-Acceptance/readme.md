@@ -183,5 +183,5 @@ data.drop_duplicates(inplace=True)
 ## Lifestype/Preference Analyis ##
 
 <div style="text-align:center">
-    <img src="images/14_person_preference.png" alt="centered image" width=600>
+    <img src="images/14_person_preference.png" alt="centered image" width=500>
 </div>
