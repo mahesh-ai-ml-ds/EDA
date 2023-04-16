@@ -72,7 +72,7 @@ It is important to note that the record count for the dataset is 12,684. This am
 ```
 
 | Column    | % Null Values | Resolution  |
-| ----------|--------------:|:------------|
+| ----------|--------------:|-------------|
 |car        | 99.14 |Drop Coolumn|
 |Bar        | 0.84    |  Replace with "never" |
 |CoffeeHouse| 1.71|   Replace with "never"  |
