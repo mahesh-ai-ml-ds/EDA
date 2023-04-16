@@ -152,6 +152,14 @@ data.drop_duplicates(inplace=True)
     <img src="images/08_bar_accepted_bar_freq_age_kid_maritial.png" alt="centered image" width=600>
 </div>
 
+### 5. Bar Coupon Analysis Summary:
+ - Bar coupons only has 41% Acceptance rate, indicating it is not the most popular coupon and only selective group shows interest in accepting the coupons
+ - Drivers who visit Bars frequently (more then 4 times) tend to favor Bar coupons compared to the rest of drivers. The difference is 40%
+ - Also as expected drivers with the age less then 25 tend to frequent bars more often and are most likely to accept the coupon
+ - Drivers without kids and with occupation not being "farming, fishing, or forestry tend to accept coupons more.
+ - Drivers with income less then 50k and frequenting the cheap resturants do not tend to accept Bar coupons indicating a different priorities
+ - Drivers with Kids do not accept coupons as Kids are not allowed to be in bar
+
 ## Trip Analysis  ##
 
 <div style="text-align:center">
