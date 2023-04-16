@@ -103,3 +103,4 @@ The dataset had 74 duplicate records which we drop.
 data.drop_duplicates(inplace=True)
 ```
 
+### Preliminary Analysis ###
