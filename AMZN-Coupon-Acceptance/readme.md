@@ -135,10 +135,10 @@ data.drop_duplicates(inplace=True)
 
 ### 3. Comparison between the acceptance rate of drivers who go to a bar more than once a month and are over the age of 25 to the all others.  Is there a difference?
 <div style="text-align:center">
-    <img src="images/03_temperature_distribution.png" width=600>
+    <img src="images/06_bar_accepted_bar_freq_age.png" width=600>
 </div>
 
 ### 4. Comparison between the acceptance rate of drivers who go to bars more than once a month and had passengers that were not a kid and had occupations other than farming, fishing, or forestry. 
 <div style="text-align:center">
-    <img src="images/03_temperature_distribution.png" width=600>
+    <img src="images/07_bar_accepted_bar_freq_age_occu.png" width=600>
 </div>
