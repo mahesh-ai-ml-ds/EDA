@@ -127,14 +127,17 @@ data.drop_duplicates(inplace=True)
 <div style="text-align:center">
     <img src="images/03_temperature_distribution.png" width=600>
 </div>
+
 ### 2. Comparison between the acceptance rate of those who went to a bar 3 or fewer times a month to those who went more.
 <div style="text-align:center">
     <img src="images/03_temperature_distribution.png" width=600>
 </div>
+
 ### 3. Comparison between the acceptance rate of drivers who go to a bar more than once a month and are over the age of 25 to the all others.  Is there a difference?
 <div style="text-align:center">
     <img src="images/03_temperature_distribution.png" width=600>
 </div>
+
 ### 4. Comparison between the acceptance rate of drivers who go to bars more than once a month and had passengers that were not a kid and had occupations other than farming, fishing, or forestry. 
 <div style="text-align:center">
     <img src="images/03_temperature_distribution.png" width=600>
