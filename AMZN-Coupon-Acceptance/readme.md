@@ -152,7 +152,7 @@ data.drop_duplicates(inplace=True)
     <img src="images/08_bar_accepted_bar_freq_age_kid_maritial.png" alt="centered image" width=600>
 </div>
 
-### 5. Bar Coupon Analysis Summary:
+### Bar Coupon Analysis Summary:
  - Bar coupons only has 41% Acceptance rate, indicating it is not the most popular coupon and only selective group shows interest in accepting the coupons
  - Drivers who visit Bars frequently (more then 4 times) tend to favor Bar coupons compared to the rest of drivers. The difference is 40%
  - Also as expected drivers with the age less then 25 tend to frequent bars more often and are most likely to accept the coupon
@@ -166,11 +166,15 @@ data.drop_duplicates(inplace=True)
     <img src="images/10_trip_variables_percent.png" alt="centered image" width=600>
 </div>
 
+### Bar Coupon Analysis Summary:
+
 ## Coupon Analysis ##
 
 <div style="text-align:center">
     <img src="images/11_coupon_variables_percent.png" alt="centered image" width=600>
 </div>
+
+### Bar Coupon Analysis Summary:
 
 ## Driver Analysis ##
 <div style="text-align:center">
@@ -180,8 +184,12 @@ data.drop_duplicates(inplace=True)
     <img src="images/13_person_variables_percent_occup.png" alt="centered image" width=600>
 </div>
 
-## Lifestype/Preference Analyis ##
+### Bar Coupon Analysis Summary:
+
+## Lifestyle/Preferences Analyis ##
 
 <div style="text-align:center">
     <img src="images/14_person_preference.png" alt="centered image" width=500>
 </div>
+
+### Lifestyle/Preferences Analysis Summary:
