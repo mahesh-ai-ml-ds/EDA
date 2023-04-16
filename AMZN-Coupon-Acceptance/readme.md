@@ -90,3 +90,16 @@ data.drop(columns=['car'],inplace=True)
 data.fillna('never', inplace=True)
 ```
 
+### Checking for Duplicate Records
+
+We can check the duplicate records using the below code.
+
+```python
+data.duplicated().sum()
+```
+
+The dataset had 74 duplicate records which we drop.
+```python
+data.drop_duplicates(inplace=True)
+```
+
