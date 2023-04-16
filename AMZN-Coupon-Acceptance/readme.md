@@ -142,3 +142,29 @@ data.drop_duplicates(inplace=True)
 <div style="text-align:center">
     <img src="images/07_bar_accepted_bar_freq_age_occu.png" alt="centered image" width=600>
 </div>
+
+## Trip Analysis  ##
+
+<div style="text-align:center">
+    <img src="images/10_trip_variables_percent.png" alt="centered image" width=600>
+</div>
+
+## Coupon Analysis ##
+
+<div style="text-align:center">
+    <img src="images/11_coupon_variables_percent.png" alt="centered image" width=600>
+</div>
+
+## Driver Analysis ##
+<div style="text-align:center">
+    <img src="images/12_person_variables_percent.png" alt="centered image" width=600>
+</div>
+<div style="text-align:center">
+    <img src="images/13_person_variables_percent_occup.png" alt="centered image" width=600>
+</div>
+
+## Lifestype/Preference Analyis ##
+
+<div style="text-align:center">
+    <img src="images/14_person_preference.png" alt="centered image" width=600>
+</div>
