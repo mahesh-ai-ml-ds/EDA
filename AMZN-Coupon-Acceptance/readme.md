@@ -107,13 +107,13 @@ data.drop_duplicates(inplace=True)
 ### 1. What proportion of the total observations chose to accept the coupon?
 
 <div style="text-align:center">
-    <img src="images/00_perct_accepted.png" width=500>
+    <img src="images/04_bar_accepted_record.png" width=500>
 </div>
 
 ### 2. What were different types and counts of coupons offered?
 
 <div style="text-align:center">
-    <img src="images/01_coupon_types_count.png" width=600>
+    <img src="images/05_bar_accepted_bar_freq.png" width=600>
 </div>
 
 ### 3. What is the distribution of temperature column?
