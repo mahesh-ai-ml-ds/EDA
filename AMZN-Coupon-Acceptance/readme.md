@@ -109,3 +109,9 @@ data.drop_duplicates(inplace=True)
 <div style="text-align:center">
     <img src="images/00_perct_accepted.png" width=600>
 </div>
+
+#### What were different types and counts of coupons offered ?####
+
+<div style="text-align:center">
+    <img src="images/01_coupon_types_count.png" width=600>
+</div>
