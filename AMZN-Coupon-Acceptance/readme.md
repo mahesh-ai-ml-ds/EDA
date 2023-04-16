@@ -79,3 +79,14 @@ It is important to note that the record count for the dataset is 12,684. This am
 |CarryAway  | 1.19     |   Replace with "never"  |
 |RestaurantLessThan20 | 1.02      |    Replace with "never"  |
 |Restaurant20To50 | 1.49  |   Replace with "never" |
+
+- Dropping 'car' column
+```python
+data.drop(columns=['car'],inplace=True)
+```
+
+- Replacing Null values with "never"
+```python
+data.fillna('never', inplace=True)
+```
+
