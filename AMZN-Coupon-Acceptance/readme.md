@@ -107,13 +107,13 @@ data.drop_duplicates(inplace=True)
 ### 1. What proportion of the total observations chose to accept the coupon?
 
 <div style="text-align:center">
-    <img src="images/04_bar_accepted_record.png" width=500>
+    <img src="images/00_perct_accepted.png" width=500>
 </div>
 
 ### 2. What were different types and counts of coupons offered?
 
 <div style="text-align:center">
-    <img src="images/05_bar_accepted_bar_freq.png" width=600>
+    <img src="images/01_coupon_types_count.png" width=600>
 </div>
 
 ### 3. What is the distribution of temperature column?
@@ -125,12 +125,12 @@ data.drop_duplicates(inplace=True)
 ## Bar Coupons Analysis ##
 ### 1. What proportion of bar coupons were accepted?
 <div style="text-align:center">
-    <img src="images/03_temperature_distribution.png" width=600>
+    <img src="images/04_bar_accepted_record.png" width=500>
 </div>
 
 ### 2. Comparison between the acceptance rate of those who went to a bar 3 or fewer times a month to those who went more.
 <div style="text-align:center">
-    <img src="images/03_temperature_distribution.png" width=600>
+    <img src="images/05_bar_accepted_bar_freq.png" width=600>
 </div>
 
 ### 3. Comparison between the acceptance rate of drivers who go to a bar more than once a month and are over the age of 25 to the all others.  Is there a difference?
