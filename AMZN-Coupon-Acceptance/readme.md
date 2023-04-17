@@ -184,8 +184,8 @@ data.drop_duplicates(inplace=True)
 </div>
 
 ### Coupon Analysis Summary:
- - Coupons for Restuarants or Carry out & Take awary has higer accetance rate
- - Coupons wich are expiring in a day have higher acceptance rate compared to coupons expiring in 2 hours
+ - Coupons for Restuarants or "Carry out & Take away" has higer accetance rate
+ - Coupons which are expiring a day later have higher acceptance rate compared to coupons expiring in 2 hours
 
 ## Driver Analysis ##
 <div style="text-align:center">
@@ -195,7 +195,14 @@ data.drop_duplicates(inplace=True)
     <img src="images/13_person_variables_percent_occup.png" alt="centered image" width=600>
 </div>
 
-### Bar Coupon Analysis Summary:
+### Driver Analysis Summary:
+ - Driver with a friend or partner passenger will be more likely to accept the coupons, and the opposite is true for the driver with Kids, who are least likely to accept the coupons
+ - Group of drivers aged less than 30 are more likely to accept the coupons
+ - Drivers who are single or are with unmarried friends will most likely accept the coupon, and widows are least likely to accept the coupons
+ - Having just a High School education which also must he impacting low-income drivers, are more likely to accept the coupons
+ - Drivers with Master's or Doctorate degrees are most likely to plan and stick to their plans and will be least likely to accept the coupons. With higher education, they should be earning well not to be interested in using coupons
+ - Overall, low income will be a motivating factor for the drivers to accept the coupons
+ - Healthcare professionals are the biggest group to accept the coupons
 
 ## Lifestyle/Preferences Analyis ##
 
