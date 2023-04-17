@@ -169,7 +169,13 @@ data.drop_duplicates(inplace=True)
     <img src="images/10_trip_variables_percent.png" alt="centered image" width=600>
 </div>
 
-### Bar Coupon Analysis Summary:
+### Trip Analysis Summary:
+ - Drivers will most likely to accept the coupons if they are not driving to any urgent place
+ - Good and sunny weather infuence the acceptance rate of the coupons.
+ - Early morning and late nights are not the best times of offer couons
+ - Majority of coupons are accepted around noon time
+ - As the desition of coupon increases, the lesser will be the acceptance arate of the coupon
+ - Direciton of travel though does not significantly impact the acceptance rate
 
 ## Coupon Analysis ##
 
