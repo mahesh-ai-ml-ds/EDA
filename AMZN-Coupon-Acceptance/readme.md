@@ -183,7 +183,9 @@ data.drop_duplicates(inplace=True)
     <img src="images/11_coupon_variables_percent.png" alt="centered image" width=600>
 </div>
 
-### Bar Coupon Analysis Summary:
+### Coupon Analysis Summary:
+ - Coupons for Restuarants or Carry out & Take awary has higer accetance rate
+ - Coupons wich are expiring in a day have higher acceptance rate compared to coupons expiring in 2 hours
 
 ## Driver Analysis ##
 <div style="text-align:center">
