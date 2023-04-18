@@ -265,5 +265,6 @@ data.drop_duplicates(inplace=True)
 - Drivers with only high school education are more likely to accept the coupons 
 
 ### Next Steps ###
-- Use the actionable observations to adjust the coupon delivery model and create a more focussed coupon distribution campaign
+- Use the actionable observations to adjust the coupon delivery model and create a more focussed coupon distribution campaign.
 - Proceed with subsequent encoding of data to generate either Decision Trees or other models to help campaign leaders use prediction from models to create targeted and effective campaigns.
+- The 12000 records are not sufficient to ensure the accuracy of our analysis and conclusions. As a result, be cautious when interpreting the findings and consider gathering more data to improve the robustness of the analysis.
