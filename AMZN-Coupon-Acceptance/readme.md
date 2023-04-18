@@ -1,6 +1,5 @@
 # Will a Customer Accept the Coupon?
 
-- [Will a Customer Accept the Coupon?](#will-a-customer-accept-the-coupon-)
   * [Context](#context)
   * [Jupyter Notebook](#jupyter-notebook)
   * [EDA : Data Quality Check and Clean-up](#eda---data-quality-check-and-clean-up)
