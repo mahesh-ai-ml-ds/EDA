@@ -1,5 +1,42 @@
 # Will a Customer Accept the Coupon?
 
+- [Will a Customer Accept the Coupon?](#will-a-customer-accept-the-coupon-)
+  * [Context](#context)
+  * [Jupyter Notebook](#jupyter-notebook)
+  * [EDA : Data Quality Check and Clean-up](#eda---data-quality-check-and-clean-up)
+    + [Fixing Data Types for Categorical Columns](#fixing-data-types-for-categorical-columns)
+    + [Data Record Count](#data-record-count)
+    + [Checking and Fixing Null Values](#checking-and-fixing-null-values)
+    + [Checking for Duplicate Records](#checking-for-duplicate-records)
+  * [Preliminary Analysis](#preliminary-analysis)
+    + [1. What proportion of the total observations chose to accept the coupon?](#1-what-proportion-of-the-total-observations-chose-to-accept-the-coupon-)
+    + [2. What were different types and counts of coupons offered?](#2-what-were-different-types-and-counts-of-coupons-offered-)
+    + [3. What is the distribution of temperature column?](#3-what-is-the-distribution-of-temperature-column-)
+  * [Bar Coupons Analysis](#bar-coupons-analysis)
+    + [1. What proportion of bar coupons were accepted?](#1-what-proportion-of-bar-coupons-were-accepted-)
+    + [2. Comparison between the acceptance rate of those who went to a bar 3 or fewer times a month to those who went more.](#2-comparison-between-the-acceptance-rate-of-those-who-went-to-a-bar-3-or-fewer-times-a-month-to-those-who-went-more)
+    + [3. Comparison between the acceptance rate of drivers who go to a bar more than once a month and are over the age of 25 to the all others.  Is there a difference?](#3-comparison-between-the-acceptance-rate-of-drivers-who-go-to-a-bar-more-than-once-a-month-and-are-over-the-age-of-25-to-the-all-others--is-there-a-difference-)
+    + [4. Comparison between the acceptance rate of drivers who go to bars more than once a month and had passengers that were not a kid and had occupations other than farming, fishing, or forestry.](#4-comparison-between-the-acceptance-rate-of-drivers-who-go-to-bars-more-than-once-a-month-and-had-passengers-that-were-not-a-kid-and-had-occupations-other-than-farming--fishing--or-forestry)
+    + [5. Comparison between the those drivers who:](#5-comparison-between-the-those-drivers-who-)
+      - [-go to bars more than once a month, had passengers that were not a kid, and were not widowed OR](#-go-to-bars-more-than-once-a-month--had-passengers-that-were-not-a-kid--and-were-not-widowed-or)
+      - [-go to bars more than once a month and are under the age of 30 OR](#-go-to-bars-more-than-once-a-month-and-are-under-the-age-of-30-or)
+      - [-go to cheap restaurants more than 4 times a month and income is less than 50K.](#-go-to-cheap-restaurants-more-than-4-times-a-month-and-income-is-less-than-50k)
+    + [Bar Coupon Analysis Summary:](#bar-coupon-analysis-summary-)
+  * [Trip Analysis](#trip-analysis)
+    + [Trip Analysis Summary:](#trip-analysis-summary-)
+  * [Coupon Analysis](#coupon-analysis)
+    + [Coupon Analysis Summary:](#coupon-analysis-summary-)
+  * [Driver Analysis](#driver-analysis)
+    + [Driver Analysis Summary:](#driver-analysis-summary-)
+  * [Lifestyle/Preferences Analysis](#lifestyle-preferences-analysis)
+    + [Lifestyle/Preferences Analysis Summary:](#lifestyle-preferences-analysis-summary-)
+  * [Conclusion and Next Steps](#conclusion-and-next-steps)
+    + [Actionable observations](#actionable-observations)
+    + [Next Steps](#next-steps)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+
 ## Context ##
 
 Imagine driving through town and a coupon is delivered to your cell phone for a restaraunt near where you are driving. 
