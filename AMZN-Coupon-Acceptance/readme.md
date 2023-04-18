@@ -217,7 +217,7 @@ data.drop_duplicates(inplace=True)
  
  
  ## Conclusion and Next Steps ##
-  Let's first answer the prompt questions at the beginning using the observeations from data.
+  Let's first answer the prompt questions listed beginning of analysis using the observeations from data.
  
  - Would you accept that coupon and take a short detour to the restaraunt? 
      _The direction of detour though is irrelevant but the time to destination should be lesser for the acceptance based on data._
