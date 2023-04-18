@@ -211,3 +211,40 @@ data.drop_duplicates(inplace=True)
 </div>
 
 ### Lifestyle/Preferences Analysis Summary:
+ - Drivers who frequently visit the Bars and CoffeeHouse are more like to accept the coupons.
+ - Drivers who never visited Bars and CoffeeHouse will not be accepting the respective coupons, but surprisingly drivers who have never ordered CarryAway before will most likely accept the coupons. This suggests CarryAway coupons could be used to expose certain restaurants to new customers
+ - No difference is observed between the drivers who go to cheaper or more expensive restaurants, as the only factor that positively affects the drivers accepting the coupon is the frequency of their visits. Higher the frequency of the visits, the more likely they are going to accept the coupon
+ 
+ 
+ ## Conclusion and Next Steps ##
+  Let's first answer the prompt questions at the beginning using the observeations from data.
+ 
+ - Would you accept that coupon and take a short detour to the restaraunt? 
+     _The direction of detour though is irrelevant but the time to destination should be lesser for the acceptance based on data._
+ - Would you accept the coupon but use it on a sunbsequent trip? 
+     _In the data, the preference of coupons with expiry of 1 day was clearly observed.
+ - Would you ignore the coupon entirely?_
+     _In certian situations the coupon will be ignored entirely e.g. when driving with kids, bar coupons to drivers who never went to bar etc._
+ - What if the coupon was for a bar instead of a restaraunt? 
+     _Coupon to both bar and restaurant are equally preferred by the drivers with higher histroical frequency of visiting such places._
+ - What about a coffee house? Would you accept a bar coupon with a minor passenger in the car? 
+     _Acceptance rate of coffehouse is 50% and driver will most likely to reject the bar coupon when driving with a monor_
+ - What about if it was just you and your partner in the car? 
+     _An inpromptu plan could be accepted when driving with partner and data also suggest that coupon;s acceptance will be higher_
+ - Would weather impact the rate of acceptance? 
+     _A good weather is conducive to coupon acceptance and bad weather will prompt the drivers to reach their destinations_
+ - What about the time of day?
+     _Time around noon time is most conducive for drivers to accept the coupons._
+     
+### Actionable observations ###
+- Good and sunny weather positively infuence the acceptance rate of the coupons
+- Time around noon time is the best acceptance rates
+- Lesser the time it takes driver to reach the destination, more like they are going to accept the coupons
+- Restaurant (cheap and expensive) and Carry Out coupones are most likely to be accepted
+- Coupons with exiry period of 1 day are more likely to be accepted
+- Young drivers(<30) are more likely to accept the coupons
+- Drivers with only high school education are more likely to accept the coupons 
+
+### Next Steps ###
+- Use the actionable observations to adjust the coupon delivery model and create a more focussed coupon distribution campaign
+- Proceed with subsequent encoding of data to generate either Decision Trees or other models to help campaign leaders
