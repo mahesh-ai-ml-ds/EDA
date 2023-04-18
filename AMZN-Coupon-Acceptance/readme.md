@@ -204,7 +204,7 @@ data.drop_duplicates(inplace=True)
  - Overall, low income will be a motivating factor for the drivers to accept the coupons
  - Healthcare professionals are the biggest group to accept the coupons
 
-## Lifestyle/Preferences Analyis ##
+## Lifestyle/Preferences Analysis ##
 
 <div style="text-align:center">
     <img src="images/14_person_preference.png" alt="centered image" width=500>
