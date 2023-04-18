@@ -247,4 +247,4 @@ data.drop_duplicates(inplace=True)
 
 ### Next Steps ###
 - Use the actionable observations to adjust the coupon delivery model and create a more focussed coupon distribution campaign
-- Proceed with subsequent encoding of data to generate either Decision Trees or other models to help campaign leaders
+- Proceed with subsequent encoding of data to generate either Decision Trees or other models to help campaign leaders use prediction from models to create targeted and effective campaigns.
