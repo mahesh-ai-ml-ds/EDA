@@ -52,7 +52,7 @@ Wang, Tong, Cynthia Rudin, Finale Doshi-Velez, Yimin Liu, Erica Klampfl, and Per
  - Y:1, 0 *(whether the coupon is accepted)* 
 
 ## Jupyter Notebook
-xxxfdfdfsadfasdfdsfdsfdssd
+Jupyter Notebook : [EDA-AMZN-Coupon.ipynb](https://github.com/mahesh-ai-ml-ds/EDA/blob/main/AMZN-Coupon-Acceptance/EDA-AMZN-Coupon.ipynb)
 
 ## EDA : Data Quality Check and Clean-up ##
 
